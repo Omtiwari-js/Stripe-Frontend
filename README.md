@@ -1,16 +1,40 @@
-# React + Vite
+# 🛍️ E-Commerce Store with Stripe Payment Gateway Integration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack e-commerce web application built using the **MERN stack**, integrated with the **Stripe API** for secure, real-time payment processing.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+- **Frontend (Netlify):** [https://stripe-payment-getway.netlify.app]
+- **Backend (Render):** [https://stripe-backend-3qm2.onrender.com]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### **Frontend:**
+- React.js (Vite)
+- Tailwind CSS (for modern UI styling)
+- Axios (for API communication)
 
-## Expanding the ESLint configuration
+### **Backend:**
+- Node.js & Express.js
+- Stripe SDK (`stripe` package)
+- CORS & Dotenv
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+- **Product Storefront:** Browse multiple items (T-shirts, Hoodies, Mugs) with dynamic pricing.
+- **Secure Stripe Checkout:** Seamlessly redirects users to Stripe’s hosted checkout session for payment processing.
+- **CORS & Environment Security:** Secured with environment variables (`.env`) and configured CORS for smooth frontend-backend communication.
+- **Responsive UI:** Fully responsive design styled with Tailwind CSS.
+
+---
+
+## ⚙️ Local Installation & Setup
+
+Want to run this project locally? Follow these steps:
+
+### 1. Clone the repositories
+```bash
+git clone [https://github.com/Omtiwari-js/Stripe-Frontend.git](https://github.com/Omtiwari-js/Stripe-Frontend.git)
+git clone [https://github.com/Omtiwari-js/Stripe-Backend.git](https://github.com/Omtiwari-js/Stripe-Backend.git)
