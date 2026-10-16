@@ -27,7 +27,7 @@ const App = () => {
       <Route path='/' element={
         <div className="min-h-screen bg-gray-200 flex flex-col items-center py-10">
           <h1 className='text-4xl font-bold text-gray-800 mb-10'>Stripe Store</h1>
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {
               products.map((product, index) =>(
                  <ProductCard key={index} product={product} />
