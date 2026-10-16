@@ -1,3 +1,5 @@
+<img width="1920" height="865" alt="Screenshot 2026-10-16 163655" src="https://github.com/user-attachments/assets/e9841486-765d-4654-8638-0ad625cf986c" />
+<img width="1920" height="791" alt="Screenshot 2026-10-16 163502" src="https://github.com/user-attachments/assets/b3457ad0-b21f-489b-a099-11e4277b35f6" />
 # 🛍️ E-Commerce Store with Stripe Payment Gateway Integration
 
 A full-stack e-commerce web application built using the **MERN stack**, integrated with the **Stripe API** for secure, real-time payment processing.
